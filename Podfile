@@ -1,8 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-flutter_application_path = '/Users/goncalopalma/FlutterProjects/ianum/ianum_experiments/add-2-app-experiments/flutter_ios_framework/flutter_embedding'
-  eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+flutter_application_path = './flutter_embedding'
+eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
 
 
 target 'flutter_ios_framework' do
