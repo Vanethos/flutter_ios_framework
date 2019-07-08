@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/Vanethos/flutter_ios_framework.git", :tag => "#{spec.version}" }
-  spec.source_files  = 'FlutterIosFramework/*.{h,m,swift}'
+  spec.source_files  = 'flutter_ios_framework/*.{h,m,swift}'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
