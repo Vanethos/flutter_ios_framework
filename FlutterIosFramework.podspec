@@ -80,7 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Vanethos/flutter_connectivity_widget.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Vanethos/flutter_ios_framework.git", :tag => "#{spec.version}" }
+  spec.source_files  = 'FlutterIosFramework/Classes/*.{h,m,swift}'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
