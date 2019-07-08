@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `/Users/goncalopalma/FlutterProjects/ianum/ianum_experiments/add-2-app-experiments/flutter_ios_framework/flutter_embedding/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `/Users/goncalopalma/FlutterProjects/ianum/ianum_experiments/add-2-app-experiments/flutter_ios_framework/flutter_embedding/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/goncalopalma/FlutterProjects/ianum/ianum_experiments/add-2-app-experiments/flutter_ios_framework/flutter_embedding/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "/Users/goncalopalma/FlutterProjects/ianum/ianum_experiments/add-2-app-experiments/flutter_ios_framework/flutter_embedding/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+
+PODFILE CHECKSUM: 3747ca1e7d29423154c7fae8f0323cd482d6137f
+
+COCOAPODS: 1.7.1
