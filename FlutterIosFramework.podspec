@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlutterIosFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of FlutterIosFramework."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/Vanethos/flutter_ios_framework.git", :tag => "#{spec.version}" }
-  spec.source_files  = 'FlutterIosFramework/Classes/*.{h,m,swift}'
+  spec.source_files  = 'FlutterIosFramework/*.{h,m,swift}'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
