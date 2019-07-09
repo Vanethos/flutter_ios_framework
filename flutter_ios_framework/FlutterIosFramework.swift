@@ -11,7 +11,7 @@ import Foundation
 class FlutterIosFramework {
     open func presentFirstViewControllerOn(_ viewController:UIViewController) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "idFrameworkVC") as! FlutterViewController
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "idFrameworkVC") as! FlutterController
         viewController.present(nextViewController, animated:true, completion:nil)
     }
 }

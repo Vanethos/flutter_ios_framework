@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlutterIosFramework"
-  spec.version      = "0.0.12"
+  spec.version      = "0.0.13"
   spec.summary      = "A short description of FlutterIosFramework."
 
   # This description is used to generate tags and improve search results.
@@ -133,5 +133,5 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # spec.dependency "FlutterIosFramework", "~> 0.0.1"
 end

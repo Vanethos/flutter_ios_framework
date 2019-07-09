@@ -11,7 +11,7 @@
 		4E32004F22D36AEE00220FE6 /* FlutterIosFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32004E22D36AEE00220FE6 /* FlutterIosFramework.swift */; };
 		4ED7C33722D35C7500264C7F /* flutter_ios_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED7C33522D35C7500264C7F /* flutter_ios_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED7C34122D35D2B00264C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7C33F22D35D2B00264C7F /* AppDelegate.swift */; };
-		4ED7C34222D35D2B00264C7F /* FlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7C34022D35D2B00264C7F /* FlutterViewController.swift */; };
+		4ED7C34222D35D2B00264C7F /* FlutterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7C34022D35D2B00264C7F /* FlutterController.swift */; };
 		4ED7C34522D35DEC00264C7F /* flutter_ios_framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED7C34422D35DEC00264C7F /* flutter_ios_framework */; };
 		53DA1B9E747DFCF1E55BE4E5 /* Pods_flutter_ios_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A7BDF7F2EACC0AFB6E4362 /* Pods_flutter_ios_framework.framework */; };
 /* End PBXBuildFile section */
@@ -23,7 +23,7 @@
 		4ED7C33522D35C7500264C7F /* flutter_ios_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flutter_ios_framework.h; sourceTree = "<group>"; };
 		4ED7C33622D35C7500264C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED7C33F22D35D2B00264C7F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../flutter_ios_embedding/flutter_ios_embedding/AppDelegate.swift; sourceTree = "<group>"; };
-		4ED7C34022D35D2B00264C7F /* FlutterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlutterViewController.swift; path = ../../flutter_ios_embedding/flutter_ios_embedding/FlutterViewController.swift; sourceTree = "<group>"; };
+		4ED7C34022D35D2B00264C7F /* FlutterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlutterController.swift; path = ../../flutter_ios_embedding/flutter_ios_embedding/FlutterController.swift; sourceTree = "<group>"; };
 		4ED7C34422D35DEC00264C7F /* flutter_ios_framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_ios_framework; sourceTree = "<group>"; };
 		64A71CE1F00AD24AEE1AA000 /* Pods-flutter_ios_framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_ios_framework.release.xcconfig"; path = "Target Support Files/Pods-flutter_ios_framework/Pods-flutter_ios_framework.release.xcconfig"; sourceTree = "<group>"; };
 		D5CB2A37D26DCE59E9221BD5 /* Pods-flutter_ios_framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_ios_framework.debug.xcconfig"; path = "Target Support Files/Pods-flutter_ios_framework/Pods-flutter_ios_framework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			children = (
 				4E32004C22D3622100220FE6 /* Base.lproj */,
 				4ED7C33F22D35D2B00264C7F /* AppDelegate.swift */,
-				4ED7C34022D35D2B00264C7F /* FlutterViewController.swift */,
+				4ED7C34022D35D2B00264C7F /* FlutterController.swift */,
 				4ED7C33522D35C7500264C7F /* flutter_ios_framework.h */,
 				4ED7C33622D35C7500264C7F /* Info.plist */,
 				4E32004E22D36AEE00220FE6 /* FlutterIosFramework.swift */,
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED7C34222D35D2B00264C7F /* FlutterViewController.swift in Sources */,
+				4ED7C34222D35D2B00264C7F /* FlutterController.swift in Sources */,
 				4ED7C34122D35D2B00264C7F /* AppDelegate.swift in Sources */,
 				4E32004F22D36AEE00220FE6 /* FlutterIosFramework.swift in Sources */,
 			);
